@@ -1,16 +1,24 @@
-@import "https://unpkg.com/modern-normalize";
+@import url('https://unpkg.com/modern-normalize');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
 
 
 body {
   font-family: 'Lora', serif;
   line-height: 1.5;
+  background-image: url('/img/layered-waves-haikei.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw auto;
 }
 
-h1 {
-  text-align: center;
-  font-size: 3rem;
-  margin: 3rem;
+.header {
+  margin: 2rem;
+  height: 6rem;
+}
+
+svg {
+    color : red;
 }
 .container {
   max-width: 40rem;
