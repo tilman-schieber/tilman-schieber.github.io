@@ -48,6 +48,44 @@
     "preview": "live"
   },
   {
+    "name": "Mensura",
+    "kind": "Game",
+    "description": "Die sieben Urmaße: a maths adventure for grades 5 and 6 (German).",
+    "live": "https://gh.tschieber.de/mensura/",
+    "code": "https://github.com/tilman-schieber/mensura",
+    "preview": "live"
+  },
+  {
+    "name": "xess",
+    "kind": "Game",
+    "description": "Chess puzzles on non-standard boards: variable sizes, odd grids, blocked squares. Works offline.",
+    "code": "https://github.com/tilman-schieber/xess",
+    "preview": "screenshots/xess.png"
+  },
+  {
+    "name": "voku",
+    "kind": "Web app",
+    "description": "Five-minute in-class vocabulary sprints for German students learning English.",
+    "live": "https://voku.tschieber.de/",
+    "code": "https://github.com/tilman-schieber/voku",
+    "preview": "live"
+  },
+  {
+    "name": "microtools",
+    "kind": "Web app",
+    "description": "Simple link-based tools: date polls, note and file sharing, expense splitting, one-time secrets.",
+    "live": "http://tschieber.de:5000/",
+    "code": "https://github.com/tilman-schieber/microtools",
+    "preview": "screenshots/microtools.png"
+  },
+  {
+    "name": "labnotes",
+    "kind": "Web app",
+    "description": "Lab notebook prototype: rich text with quantities, reactions and linked entities (React, TipTap, Postgres or SQLite).",
+    "code": "https://github.com/tilman-schieber/labnotes",
+    "preview": "screenshots/labnotes.png"
+  },
+  {
     "name": "tlog",
     "kind": "CLI",
     "description": "Markdown-first knowledge outliner for the terminal, with a desktop app. Plain files, no database.",
@@ -88,6 +126,27 @@
     "description": "Generates LEGO sets from real parts: models, parts lists, renders, instruction booklets and build films.",
     "code": "https://github.com/tilman-schieber/legokit",
     "preview": "screenshots/legokit.png"
+  },
+  {
+    "name": "Mars",
+    "kind": "Omarchy theme",
+    "description": "Dark Omarchy theme from HiRISE Mars imagery: slate grey with a Martian red accent.",
+    "code": "https://github.com/tilman-schieber/omarchy-mars-theme",
+    "preview": "screenshots/omarchy-mars.png"
+  },
+  {
+    "name": "Carbonfox",
+    "kind": "Omarchy theme",
+    "description": "Omarchy port of the carbonfox flavour of nightfox.nvim.",
+    "code": "https://github.com/tilman-schieber/omarchy-carbonfox-theme",
+    "preview": "screenshots/omarchy-carbonfox.png"
+  },
+  {
+    "name": "Solarized Dark",
+    "kind": "Omarchy theme",
+    "description": "Omarchy theme from Ethan Schoonover's original Solarized spec.",
+    "code": "https://github.com/tilman-schieber/omarchy-solarized-dark-theme",
+    "preview": "screenshots/omarchy-solarized-dark.png"
   },
   {
     "name": "Oberkurs Informatik: Überblick",
