@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Tilman Schieber</title>
+  <title>github.com/tilman-schieber</title>
   <meta name="description" content="Projects by Tilman Schieber: browser games, tools and courses.">
   <style>
     :root {
@@ -40,7 +40,9 @@
     }
     main { max-width: 1120px; margin: 0 auto; padding: 56px 16px 72px; }
 
-    header h1 { font-size: 2rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+    header h1 { font: 600 1.5rem/1.3 ui-monospace, "SF Mono", Menlo, Consolas, monospace; margin: 0 0 4px; }
+    header h1 a { color: inherit; text-decoration: none; }
+    header h1 a:hover { text-decoration: underline; }
     header p { margin: 0; color: var(--muted); max-width: 60ch; }
 
     .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0 20px; }
@@ -114,23 +116,17 @@
     .links a { color: var(--accent); text-decoration: none; }
     .links a:hover { text-decoration: underline; }
 
-    footer { margin-top: 56px; color: var(--muted); font-size: 0.85rem; }
-    footer a { color: var(--accent); }
   </style>
 </head>
 <body>
   <main>
     <header>
-      <h1>Tilman Schieber</h1>
-      <p>Things I build and teach with: browser games, command-line tools, apps and interactive courses.</p>
+      <h1><a href="https://github.com/tilman-schieber">github.com/tilman-schieber</a></h1>
+      <p>selected projects on gh</p>
     </header>
 
     <nav class="filters" aria-label="Filter projects"></nav>
     <div class="grid" id="projects"></div>
-
-    <footer>
-      <a href="https://github.com/tilman-schieber">github.com/tilman-schieber</a>
-    </footer>
   </main>
 
   <script>
