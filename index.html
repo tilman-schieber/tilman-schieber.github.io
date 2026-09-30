@@ -155,7 +155,9 @@
       const href = project.live || project.code;
       const frame = el("a", { class: "preview", href, tabindex: "-1", "aria-hidden": "true" });
       if (project.preview === "live" && project.live) {
-        frame.append(el("iframe", { src: project.live, loading: "lazy", tabindex: "-1", title: "" }));
+        // No sound from previews: games that start music on load stay silent here.
+        frame.append(el("iframe", { src: project.live, loading: "lazy", tabindex: "-1", title: "",
+                                    allow: "autoplay 'none'" }));
       } else if (project.preview) {
         frame.append(el("img", { src: project.preview, alt: "", loading: "lazy" }));
       } else {
