@@ -1,0 +1,108 @@
+[
+  {
+    "name": "SCALES",
+    "kind": "Game",
+    "description": "NES-style snake game in a musical labyrinth.",
+    "live": "https://gh.tschieber.de/scales/",
+    "code": "https://github.com/tilman-schieber/scales",
+    "preview": "live"
+  },
+  {
+    "name": "jtris",
+    "kind": "Game",
+    "description": "NES-style pixel-art block puzzle game.",
+    "live": "https://gh.tschieber.de/jtris/",
+    "code": "https://github.com/tilman-schieber/jtris",
+    "preview": "live"
+  },
+  {
+    "name": "opener",
+    "kind": "Web app",
+    "description": "Learn chess openings by playing them, against a human-like opponent with an opening explorer.",
+    "live": "https://gh.tschieber.de/opener/",
+    "code": "https://github.com/tilman-schieber/opener",
+    "preview": "live"
+  },
+  {
+    "name": "W.A.L.D.",
+    "kind": "Game",
+    "description": "Wächter Aller Lebenden Dinge: a pixel-art adventure by Tilman, Jonas and Leonel.",
+    "live": "https://gh.tschieber.de/wald/",
+    "code": "https://github.com/tilman-schieber/wald",
+    "preview": "live"
+  },
+  {
+    "name": "Straussi",
+    "kind": "Web app",
+    "description": "Finder for Straussenwirtschaften in Südbaden: who is open, where they are, what they serve, on a map.",
+    "live": "https://gh.tschieber.de/straussi/",
+    "code": "https://github.com/tilman-schieber/straussi",
+    "preview": "live"
+  },
+  {
+    "name": "Stack",
+    "kind": "Game",
+    "description": "Magic: The Gathering deck builder with rules-enforced play, locally or against a friend over the internet, no server.",
+    "live": "https://gh.tschieber.de/stack/",
+    "code": "https://github.com/tilman-schieber/stack",
+    "preview": "live"
+  },
+  {
+    "name": "tlog",
+    "kind": "CLI",
+    "description": "Markdown-first knowledge outliner for the terminal, with a desktop app. Plain files, no database.",
+    "code": "https://github.com/tilman-schieber/tlog",
+    "preview": "screenshots/tlog.png"
+  },
+  {
+    "name": "localdev",
+    "kind": "CLI",
+    "description": "Stable *.localhost URLs for local dev servers: registry, reverse proxy, dashboard.",
+    "code": "https://github.com/tilman-schieber/localdev",
+    "preview": "screenshots/localdev.png"
+  },
+  {
+    "name": "omapic",
+    "kind": "Desktop app",
+    "description": "Tiny keyboard-driven image viewer and organizer for Omarchy / Arch Linux (Rust + GTK4).",
+    "code": "https://github.com/tilman-schieber/omapic",
+    "preview": "screenshots/omapic.png"
+  },
+  {
+    "name": "att",
+    "kind": "CLI",
+    "description": "Note attachments: a central store, Markdown file links and a drop-folder watcher.",
+    "code": "https://github.com/tilman-schieber/att",
+    "preview": "screenshots/att.png"
+  },
+  {
+    "name": "pidboy",
+    "kind": "CLI",
+    "description": "Compiles a P&ID description language to SVG diagrams, with automatic layout and routing (Rust).",
+    "code": "https://github.com/tilman-schieber/pidboy",
+    "preview": "screenshots/pidboy.png"
+  },
+  {
+    "name": "legokit",
+    "kind": "Python",
+    "description": "Generates LEGO sets from real parts: models, parts lists, renders, instruction booklets and build films.",
+    "code": "https://github.com/tilman-schieber/legokit",
+    "preview": "screenshots/legokit.png"
+  },
+  {
+    "name": "Oberkurs Informatik: Überblick",
+    "kind": "Course",
+    "description": "Interactive LiaScript course on Python, Linux and programming basics (German).",
+    "live": "https://liascript.github.io/course/?https://raw.githubusercontent.com/tilman-schieber/OKInf/main/0_Inhalt.md",
+    "code": "https://github.com/tilman-schieber/OKInf",
+    "preview": "live"
+  },
+  {
+    "name": "Unterkurs Informatik: Überblick",
+    "kind": "Course",
+    "description": "Interactive LiaScript course on logic and number systems (German).",
+    "live": "https://liascript.github.io/course/?https://raw.githubusercontent.com/tilman-schieber/UKInf/main/0_Inhalt.md",
+    "code": "https://github.com/tilman-schieber/UKInf",
+    "preview": "live"
+  }
+]

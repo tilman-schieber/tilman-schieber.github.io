@@ -1,46 +1,209 @@
-<html data-theme="light">
-
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oberkurs Informatik 377</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.red.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tilman Schieber</title>
+  <meta name="description" content="Projects by Tilman Schieber: browser games, tools and courses.">
+  <style>
+    :root {
+      --bg: #f7f6f3;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6b6b70;
+      --line: #e3e1dc;
+      --accent: #2f6fdb;
+      --term-bg: #1b1d22;
+      --term-text: #d7dae0;
+      --term-prompt: #7ec699;
+      --shadow: 0 1px 2px rgb(0 0 0 / 0.04), 0 4px 16px rgb(0 0 0 / 0.06);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141416;
+        --card: #1c1c1f;
+        --text: #ececef;
+        --muted: #9a9aa2;
+        --line: #2c2c31;
+        --accent: #7aa7ff;
+        --term-bg: #0e0f12;
+        --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 4px 16px rgb(0 0 0 / 0.3);
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main { max-width: 1120px; margin: 0 auto; padding: 56px 16px 72px; }
+
+    header h1 { font-size: 2rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+    header p { margin: 0; color: var(--muted); max-width: 60ch; }
+
+    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0 20px; }
+    .filters button {
+      font: inherit;
+      font-size: 0.85rem;
+      padding: 4px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--card);
+      color: var(--muted);
+      cursor: pointer;
+    }
+    .filters button[aria-pressed="true"] { color: var(--text); border-color: var(--accent); }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    /* Every preview has the same frame, whatever is inside it. */
+    .preview {
+      position: relative;
+      display: block;
+      aspect-ratio: 16 / 10;
+      overflow: hidden;
+      background: var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    /* Live page: rendered at desktop size and scaled down to fit; never takes clicks. */
+    .preview iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1280px;
+      height: 800px;
+      border: 0;
+      transform-origin: 0 0;
+      pointer-events: none;
+    }
+    .preview img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+    /* No screenshot yet: a terminal-style placeholder with the project's name. */
+    .preview .placeholder {
+      position: absolute;
+      inset: 0;
+      padding: 18px 20px;
+      background: var(--term-bg);
+      color: var(--term-text);
+      font: 15px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    }
+    .placeholder .prompt { color: var(--term-prompt); }
+    .placeholder .cursor { display: inline-block; width: 0.6em; height: 1.1em; vertical-align: -0.2em; background: var(--term-text); opacity: 0.7; }
+
+    .body { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px 16px; flex: 1; }
+    .title { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+    .title h3 { margin: 0; font-size: 1.05rem; }
+    .kind { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+    .body p { margin: 0; color: var(--muted); font-size: 0.93rem; flex: 1; }
+    .links { display: flex; gap: 14px; font-size: 0.9rem; margin-top: 4px; }
+    .links a { color: var(--accent); text-decoration: none; }
+    .links a:hover { text-decoration: underline; }
+
+    footer { margin-top: 56px; color: var(--muted); font-size: 0.85rem; }
+    footer a { color: var(--accent); }
+  </style>
 </head>
-
 <body>
-    <main class="container">
+  <main>
+    <header>
+      <h1>Tilman Schieber</h1>
+      <p>Things I build and teach with: browser games, command-line tools, apps and interactive courses.</p>
+    </header>
 
-        <header>
-            <hgroup>
-                <h1 class="pico-color-red-650">Studienkolleg</h1>
-                <p>der Technischen Universität Berlin</p>
-            </hgroup>
-        </header>
-        <article>
-            <a href="377.html"><h3>Oberkurs 377</h3></a>
-            <p>hier finden Sie Materialien zum Informatikunterricht des Oberkurses 377 im Wintersemester 2024.</p>
-        </article>
-        <article>
-            <a href="382.html"><h3>Unterkurs 382</h3></a>
-            <p>hier finden Sie Materialien zum Informatikunterricht des Unterkurses 382 im Wintersemester 2024.</p>
-        </article>
-        <footer>
-            <p>
-                <small>Bei Fragen und Problemen wenden Sie Sich gerne an mich via
-                    <a href="mailto:tilman.schieber@tu-berlin.de">
-                        e-mail
-                    </a>
-                    oder
-                    <a href="https://matrix.to/#/@tilman.schieber:matrix.tu-berlin.de">
-                        matrix
-                    </a>
-                </small>
-            </p>
-        </footer>
+    <nav class="filters" aria-label="Filter projects"></nav>
+    <div class="grid" id="projects"></div>
 
+    <footer>
+      <a href="https://github.com/tilman-schieber">github.com/tilman-schieber</a>
+    </footer>
+  </main>
 
-    </main>
+  <script>
+    // Projects live in projects.json. Each entry:
+    //   name, kind, description   (required)
+    //   live     URL of the running page (optional)
+    //   code     URL of the source (optional)
+    //   preview  "live" for an iframe of `live`, or a screenshot path such as
+    //            "screenshots/tlog.png"; left out, a terminal placeholder is shown.
+
+    const grid = document.getElementById("projects");
+    const filters = document.querySelector(".filters");
+
+    const el = (tag, attrs = {}, ...children) => {
+      const node = document.createElement(tag);
+      for (const [key, value] of Object.entries(attrs)) node.setAttribute(key, value);
+      node.append(...children);
+      return node;
+    };
+
+    function preview(project) {
+      const href = project.live || project.code;
+      const frame = el("a", { class: "preview", href, tabindex: "-1", "aria-hidden": "true" });
+      if (project.preview === "live" && project.live) {
+        frame.append(el("iframe", { src: project.live, loading: "lazy", tabindex: "-1", title: "" }));
+      } else if (project.preview) {
+        frame.append(el("img", { src: project.preview, alt: "", loading: "lazy" }));
+      } else {
+        const command = project.name.toLowerCase().split(/[^a-z0-9]+/)[0];
+        frame.append(el("div", { class: "placeholder" },
+          el("span", { class: "prompt" }, "$ "), command + " ", el("span", { class: "cursor" })));
+      }
+      return frame;
+    }
+
+    function card(project) {
+      const links = el("div", { class: "links" });
+      if (project.live) links.append(el("a", { href: project.live }, project.kind === "Course" ? "Open course" : "Open"));
+      if (project.code) links.append(el("a", { href: project.code }, "Code"));
+      return el("article", { class: "card", "data-kind": project.kind },
+        preview(project),
+        el("div", { class: "body" },
+          el("div", { class: "title" }, el("h3", {}, project.name), el("span", { class: "kind" }, project.kind)),
+          el("p", {}, project.description),
+          links));
+    }
+
+    // Scale each 1280×800 live preview down to its card's width.
+    const fit = (frame) => {
+      const iframe = frame.querySelector("iframe");
+      if (iframe) iframe.style.transform = `scale(${frame.clientWidth / 1280})`;
+    };
+    const resizer = new ResizeObserver((entries) => entries.forEach((e) => fit(e.target)));
+
+    function showOnly(kind) {
+      for (const button of filters.children) button.setAttribute("aria-pressed", button.dataset.kind === kind);
+      for (const c of grid.children) c.hidden = kind !== "All" && c.dataset.kind !== kind;
+    }
+
+    fetch("projects.json")
+      .then((response) => response.json())
+      .then((projects) => {
+        grid.append(...projects.map(card));
+        grid.querySelectorAll(".preview").forEach((frame) => { fit(frame); resizer.observe(frame); });
+
+        const kinds = ["All", ...new Set(projects.map((p) => p.kind))];
+        for (const kind of kinds) {
+          const button = el("button", { type: "button", "data-kind": kind }, kind);
+          button.addEventListener("click", () => showOnly(kind));
+          filters.append(button);
+        }
+        showOnly("All");
+      });
+  </script>
 </body>
-
 </html>
