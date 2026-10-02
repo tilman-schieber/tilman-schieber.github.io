@@ -1,5 +1,13 @@
 [
   {
+    "name": "SNACKMAN",
+    "kind": "Game",
+    "description": "Arcade maze game: procedural mazes, snacks cooked from ingredients, play the ghost, or the lights out.",
+    "live": "https://gh.tschieber.de/snackman/",
+    "code": "https://github.com/tilman-schieber/snackman",
+    "preview": "live"
+  },
+  {
     "name": "SCALES",
     "kind": "Game",
     "description": "NES-style snake game in a musical labyrinth.",
