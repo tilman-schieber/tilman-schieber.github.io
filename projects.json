@@ -56,6 +56,14 @@
     "preview": "live"
   },
   {
+    "name": "Crosscountry",
+    "kind": "Game",
+    "description": "Daily geography grid: nine countries that fit both their row and their column, and the rarer the answer the better.",
+    "live": "https://gh.tschieber.de/crosscountry/",
+    "code": "https://github.com/tilman-schieber/crosscountry",
+    "preview": "live"
+  },
+  {
     "name": "xess",
     "kind": "Game",
     "description": "Chess puzzles on non-standard boards: variable sizes, odd grids, blocked squares. Works offline.",
