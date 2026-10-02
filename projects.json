@@ -67,8 +67,9 @@
     "name": "xess",
     "kind": "Game",
     "description": "Chess puzzles on non-standard boards: variable sizes, odd grids, blocked squares. Works offline.",
+    "live": "https://gh.tschieber.de/xess/",
     "code": "https://github.com/tilman-schieber/xess",
-    "preview": "screenshots/xess.png"
+    "preview": "live"
   },
   {
     "name": "voku",
