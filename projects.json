@@ -72,6 +72,14 @@
     "preview": "live"
   },
   {
+    "name": "Chemgrid",
+    "kind": "Game",
+    "description": "Daily periodic-table grid: nine elements that fit both their row and their column.",
+    "live": "https://gh.tschieber.de/chemgrid/",
+    "code": "https://github.com/tilman-schieber/chemgrid",
+    "preview": "live"
+  },
+  {
     "name": "xess",
     "kind": "Game",
     "description": "Chess puzzles on non-standard boards: variable sizes, odd grids, blocked squares. Works offline.",
