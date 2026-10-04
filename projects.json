@@ -1,5 +1,13 @@
 [
   {
+    "name": "VEKTOR",
+    "kind": "Game",
+    "description": "Raiden-style vertical shooter: four stages from the jungle coast to a city at night, PixelLab sprite art, vulcan or laser, bombs, medals and four bosses.",
+    "live": "https://gh.tschieber.de/vektor/",
+    "code": "https://github.com/tilman-schieber/vektor",
+    "preview": "live"
+  },
+  {
     "name": "PONGMAN",
     "kind": "Game",
     "description": "Pong through a Pac-Man maze: steer the ball with your paddle, dodge ghosts, send invaders down the other lane, mind the gorilla.",
