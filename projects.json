@@ -64,6 +64,14 @@
     "preview": "live"
   },
   {
+    "name": "terran",
+    "kind": "Game",
+    "description": "Street View guessing without the extras: walk, look or one still photo, themed games, a daily and challenge links.",
+    "live": "https://gh.tschieber.de/terran/",
+    "code": "https://github.com/tilman-schieber/terran",
+    "preview": "screenshots/terran.png"
+  },
+  {
     "name": "Crosscountry",
     "kind": "Game",
     "description": "Daily geography grid: nine countries that fit both their row and their column, and the rarer the answer the better.",
