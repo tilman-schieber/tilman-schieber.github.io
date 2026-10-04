@@ -12,7 +12,7 @@
     "name": "VEKTOR",
     "kind": "Game",
     "group": "Arcade games",
-    "description": "Raiden-style vertical shooter: four stages from the jungle coast to a city at night, PixelLab sprite art, vulcan or laser, bombs, medals and four bosses.",
+    "description": "Raiden-style vertical shooter: five stages from the jungle coast to a volcano, PixelLab sprite art, vulcan or laser, bombs, medals and five bosses.",
     "live": "https://gh.tschieber.de/vektor/",
     "code": "https://github.com/tilman-schieber/vektor",
     "preview": "live"
