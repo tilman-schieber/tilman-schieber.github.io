@@ -1,5 +1,13 @@
 [
   {
+    "name": "REBOUND",
+    "kind": "Game",
+    "description": "Brick-breaking arcade game: paint the ball, mix colours into power-ups, pixel-picture walls, or two paddles at once.",
+    "live": "https://gh.tschieber.de/rebound/",
+    "code": "https://github.com/tilman-schieber/rebound",
+    "preview": "live"
+  },
+  {
     "name": "SNACKMAN",
     "kind": "Game",
     "description": "Arcade maze game: procedural mazes, snacks cooked from ingredients, play the ghost, or the lights out.",
