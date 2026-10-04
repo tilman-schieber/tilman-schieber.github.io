@@ -45,18 +45,25 @@
     header h1 a:hover { text-decoration: underline; }
     header p { margin: 0; color: var(--muted); max-width: 60ch; }
 
-    .filters { display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0 20px; }
-    .filters button {
-      font: inherit;
+    .sections { display: flex; flex-wrap: wrap; gap: 8px; margin: 32px 0 8px; }
+    .sections a {
       font-size: 0.85rem;
       padding: 4px 12px;
       border: 1px solid var(--line);
       border-radius: 999px;
       background: var(--card);
       color: var(--muted);
-      cursor: pointer;
+      text-decoration: none;
     }
-    .filters button[aria-pressed="true"] { color: var(--text); border-color: var(--accent); }
+    .sections a:hover { color: var(--text); border-color: var(--accent); }
+
+    section { margin-top: 36px; scroll-margin-top: 16px; }
+    section h2 {
+      margin: 0 0 14px;
+      font: 600 1.05rem/1.3 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+      color: var(--text);
+    }
+    section h2 span { color: var(--muted); font-weight: 400; margin-left: 10px; }
 
     .grid {
       display: grid;
@@ -125,20 +132,21 @@
       <p>selected projects on gh</p>
     </header>
 
-    <nav class="filters" aria-label="Filter projects"></nav>
-    <div class="grid" id="projects"></div>
+    <nav class="sections" aria-label="Sections"></nav>
+    <div id="projects"></div>
   </main>
 
   <script>
-    // Projects live in projects.json. Each entry:
-    //   name, kind, description   (required)
+    // Projects live in projects.json, grouped under subheadings by `group`, in the order the
+    // groups first appear. Each entry:
+    //   name, kind, group, description   (required)
     //   live     URL of the running page (optional)
     //   code     URL of the source (optional)
     //   preview  "live" for an iframe of `live`, or a screenshot path such as
     //            "screenshots/tlog.png"; left out, a terminal placeholder is shown.
 
-    const grid = document.getElementById("projects");
-    const filters = document.querySelector(".filters");
+    const root = document.getElementById("projects");
+    const nav = document.querySelector(".sections");
 
     const el = (tag, attrs = {}, ...children) => {
       const node = document.createElement(tag);
@@ -183,24 +191,21 @@
     };
     const resizer = new ResizeObserver((entries) => entries.forEach((e) => fit(e.target)));
 
-    function showOnly(kind) {
-      for (const button of filters.children) button.setAttribute("aria-pressed", button.dataset.kind === kind);
-      for (const c of grid.children) c.hidden = kind !== "All" && c.dataset.kind !== kind;
-    }
+    const slug = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
     fetch("projects.json")
       .then((response) => response.json())
       .then((projects) => {
-        grid.append(...projects.map(card));
-        grid.querySelectorAll(".preview").forEach((frame) => { fit(frame); resizer.observe(frame); });
-
-        const kinds = ["All", ...new Set(projects.map((p) => p.kind))];
-        for (const kind of kinds) {
-          const button = el("button", { type: "button", "data-kind": kind }, kind);
-          button.addEventListener("click", () => showOnly(kind));
-          filters.append(button);
+        const groups = [...new Set(projects.map((p) => p.group))];
+        for (const group of groups) {
+          const members = projects.filter((p) => p.group === group);
+          const id = slug(group);
+          nav.append(el("a", { href: "#" + id }, group));
+          root.append(el("section", { id },
+            el("h2", {}, group, el("span", {}, String(members.length))),
+            el("div", { class: "grid" }, ...members.map(card))));
         }
-        showOnly("All");
+        root.querySelectorAll(".preview").forEach((frame) => { fit(frame); resizer.observe(frame); });
       });
   </script>
 </body>

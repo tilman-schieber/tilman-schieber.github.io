@@ -1,23 +1,26 @@
 [
   {
-    "name": "VEKTOR",
-    "kind": "Game",
-    "description": "Raiden-style vertical shooter: four stages from the jungle coast to a city at night, PixelLab sprite art, vulcan or laser, bombs, medals and four bosses.",
-    "live": "https://gh.tschieber.de/vektor/",
-    "code": "https://github.com/tilman-schieber/vektor",
-    "preview": "live"
-  },
-  {
     "name": "PONGMAN",
     "kind": "Game",
+    "group": "Arcade games",
     "description": "Pong through a Pac-Man maze: steer the ball with your paddle, dodge ghosts, send invaders down the other lane, mind the gorilla.",
     "live": "https://gh.tschieber.de/pongman/",
     "code": "https://github.com/tilman-schieber/pongman",
     "preview": "live"
   },
   {
+    "name": "VEKTOR",
+    "kind": "Game",
+    "group": "Arcade games",
+    "description": "Raiden-style vertical shooter: four stages from the jungle coast to a city at night, PixelLab sprite art, vulcan or laser, bombs, medals and four bosses.",
+    "live": "https://gh.tschieber.de/vektor/",
+    "code": "https://github.com/tilman-schieber/vektor",
+    "preview": "live"
+  },
+  {
     "name": "REBOUND",
     "kind": "Game",
+    "group": "Arcade games",
     "description": "Brick-breaking arcade game: paint the ball, mix colours into power-ups, pixel-picture walls, or two paddles at once.",
     "live": "https://gh.tschieber.de/rebound/",
     "code": "https://github.com/tilman-schieber/rebound",
@@ -26,6 +29,7 @@
   {
     "name": "SNACKMAN",
     "kind": "Game",
+    "group": "Arcade games",
     "description": "Arcade maze game: procedural mazes, snacks cooked from ingredients, play the ghost, or the lights out.",
     "live": "https://gh.tschieber.de/snackman/",
     "code": "https://github.com/tilman-schieber/snackman",
@@ -34,6 +38,7 @@
   {
     "name": "SCALES",
     "kind": "Game",
+    "group": "Arcade games",
     "description": "NES-style snake game in a musical labyrinth.",
     "live": "https://gh.tschieber.de/scales/",
     "code": "https://github.com/tilman-schieber/scales",
@@ -42,62 +47,25 @@
   {
     "name": "jtris",
     "kind": "Game",
+    "group": "Arcade games",
     "description": "NES-style pixel-art block puzzle game.",
     "live": "https://gh.tschieber.de/jtris/",
     "code": "https://github.com/tilman-schieber/jtris",
     "preview": "live"
   },
   {
-    "name": "opener",
-    "kind": "Web app",
-    "description": "Learn chess openings by playing them, against a human-like opponent with an opening explorer.",
-    "live": "https://gh.tschieber.de/opener/",
-    "code": "https://github.com/tilman-schieber/opener",
-    "preview": "live"
-  },
-  {
     "name": "W.A.L.D.",
     "kind": "Game",
+    "group": "Arcade games",
     "description": "Wächter Aller Lebenden Dinge: a pixel-art adventure by Tilman, Jonas and Leonel.",
     "live": "https://gh.tschieber.de/wald/",
     "code": "https://github.com/tilman-schieber/wald",
     "preview": "live"
   },
   {
-    "name": "Straussi",
-    "kind": "Web app",
-    "description": "Finder for Straussenwirtschaften in Südbaden: who is open, where they are, what they serve, on a map.",
-    "live": "https://gh.tschieber.de/straussi/",
-    "code": "https://github.com/tilman-schieber/straussi",
-    "preview": "live"
-  },
-  {
-    "name": "Stack",
-    "kind": "Game",
-    "description": "Magic: The Gathering deck builder with rules-enforced play, locally or against a friend over the internet, no server.",
-    "live": "https://gh.tschieber.de/stack/",
-    "code": "https://github.com/tilman-schieber/stack",
-    "preview": "live"
-  },
-  {
-    "name": "Mensura",
-    "kind": "Game",
-    "description": "Die sieben Urmaße: a maths adventure for grades 5 and 6 (German).",
-    "live": "https://gh.tschieber.de/mensura/",
-    "code": "https://github.com/tilman-schieber/mensura",
-    "preview": "live"
-  },
-  {
-    "name": "terran",
-    "kind": "Game",
-    "description": "Street View guessing without the extras: walk, look or one still photo, themed games, a daily and challenge links.",
-    "live": "https://gh.tschieber.de/terran/",
-    "code": "https://github.com/tilman-schieber/terran",
-    "preview": "screenshots/terran.png"
-  },
-  {
     "name": "Crosscountry",
     "kind": "Game",
+    "group": "Puzzles, chess and cards",
     "description": "Daily geography grid: nine countries that fit both their row and their column, and the rarer the answer the better.",
     "live": "https://gh.tschieber.de/crosscountry/",
     "code": "https://github.com/tilman-schieber/crosscountry",
@@ -106,94 +74,70 @@
   {
     "name": "Chemgrid",
     "kind": "Game",
+    "group": "Puzzles, chess and cards",
     "description": "Daily periodic-table grid: nine elements that fit both their row and their column.",
     "live": "https://gh.tschieber.de/chemgrid/",
     "code": "https://github.com/tilman-schieber/chemgrid",
     "preview": "live"
   },
   {
+    "name": "terran",
+    "kind": "Game",
+    "group": "Puzzles, chess and cards",
+    "description": "Street View guessing without the extras: walk, look or one still photo, themed games, a daily and challenge links.",
+    "live": "https://gh.tschieber.de/terran/",
+    "code": "https://github.com/tilman-schieber/terran",
+    "preview": "screenshots/terran.png"
+  },
+  {
     "name": "xess",
     "kind": "Game",
+    "group": "Puzzles, chess and cards",
     "description": "Chess puzzles on non-standard boards: variable sizes, odd grids, blocked squares. Works offline.",
     "live": "https://gh.tschieber.de/xess/",
     "code": "https://github.com/tilman-schieber/xess",
     "preview": "live"
   },
   {
+    "name": "opener",
+    "kind": "Web app",
+    "group": "Puzzles, chess and cards",
+    "description": "Learn chess openings by playing them, against a human-like opponent with an opening explorer.",
+    "live": "https://gh.tschieber.de/opener/",
+    "code": "https://github.com/tilman-schieber/opener",
+    "preview": "live"
+  },
+  {
+    "name": "Stack",
+    "kind": "Game",
+    "group": "Puzzles, chess and cards",
+    "description": "Magic: The Gathering deck builder with rules-enforced play, locally or against a friend over the internet, no server.",
+    "live": "https://gh.tschieber.de/stack/",
+    "code": "https://github.com/tilman-schieber/stack",
+    "preview": "live"
+  },
+  {
+    "name": "Mensura",
+    "kind": "Game",
+    "group": "For the classroom",
+    "description": "Die sieben Urmaße: a maths adventure for grades 5 and 6 (German).",
+    "live": "https://gh.tschieber.de/mensura/",
+    "code": "https://github.com/tilman-schieber/mensura",
+    "preview": "live"
+  },
+  {
     "name": "voku",
     "kind": "Web app",
+    "group": "For the classroom",
     "description": "Five-minute in-class vocabulary sprints for German students learning English.",
     "live": "https://voku.tschieber.de/",
     "code": "https://github.com/tilman-schieber/voku",
     "preview": "live"
   },
   {
-    "name": "microtools",
-    "kind": "Web app",
-    "description": "Simple link-based tools: date polls, note and file sharing, expense splitting, one-time secrets.",
-    "live": "http://tschieber.de:5000/",
-    "code": "https://github.com/tilman-schieber/microtools",
-    "preview": "screenshots/microtools.png"
-  },
-  {
-    "name": "tlog",
-    "kind": "CLI",
-    "description": "Markdown-first knowledge outliner for the terminal, with a desktop app. Plain files, no database.",
-    "code": "https://github.com/tilman-schieber/tlog",
-    "preview": "screenshots/tlog.png"
-  },
-  {
-    "name": "localdev",
-    "kind": "CLI",
-    "description": "Stable *.localhost URLs for local dev servers: registry, reverse proxy, dashboard.",
-    "code": "https://github.com/tilman-schieber/localdev",
-    "preview": "screenshots/localdev.png"
-  },
-  {
-    "name": "omapic",
-    "kind": "Desktop app",
-    "description": "Tiny keyboard-driven image viewer and organizer for Omarchy / Arch Linux (Rust + GTK4).",
-    "code": "https://github.com/tilman-schieber/omapic",
-    "preview": "screenshots/omapic.png"
-  },
-  {
-    "name": "att",
-    "kind": "CLI",
-    "description": "Note attachments: a central store, Markdown file links and a drop-folder watcher.",
-    "code": "https://github.com/tilman-schieber/att",
-    "preview": "screenshots/att.png"
-  },
-  {
-    "name": "legokit",
-    "kind": "Python",
-    "description": "Generates LEGO sets from real parts: models, parts lists, renders, instruction booklets and build films.",
-    "code": "https://github.com/tilman-schieber/legokit",
-    "preview": "screenshots/legokit.png"
-  },
-  {
-    "name": "Mars",
-    "kind": "Omarchy theme",
-    "description": "Dark Omarchy theme from HiRISE Mars imagery: slate grey with a Martian red accent.",
-    "code": "https://github.com/tilman-schieber/omarchy-mars-theme",
-    "preview": "screenshots/omarchy-mars.png"
-  },
-  {
-    "name": "Carbonfox",
-    "kind": "Omarchy theme",
-    "description": "Omarchy port of the carbonfox flavour of nightfox.nvim.",
-    "code": "https://github.com/tilman-schieber/omarchy-carbonfox-theme",
-    "preview": "screenshots/omarchy-carbonfox.png"
-  },
-  {
-    "name": "Solarized Dark",
-    "kind": "Omarchy theme",
-    "description": "Omarchy theme from Ethan Schoonover's original Solarized spec.",
-    "code": "https://github.com/tilman-schieber/omarchy-solarized-dark-theme",
-    "preview": "screenshots/omarchy-solarized-dark.png"
-  },
-  {
     "name": "Oberkurs Informatik: Überblick",
     "kind": "Course",
+    "group": "For the classroom",
     "description": "Interactive LiaScript course on Python, Linux and programming basics (German).",
     "live": "https://liascript.github.io/course/?https://raw.githubusercontent.com/tilman-schieber/OKInf/main/0_Inhalt.md",
     "code": "https://github.com/tilman-schieber/OKInf",
@@ -202,9 +146,84 @@
   {
     "name": "Unterkurs Informatik: Überblick",
     "kind": "Course",
+    "group": "For the classroom",
     "description": "Interactive LiaScript course on logic and number systems (German).",
     "live": "https://liascript.github.io/course/?https://raw.githubusercontent.com/tilman-schieber/UKInf/main/0_Inhalt.md",
     "code": "https://github.com/tilman-schieber/UKInf",
     "preview": "live"
+  },
+  {
+    "name": "Straussi",
+    "kind": "Web app",
+    "group": "Web apps",
+    "description": "Finder for Straussenwirtschaften in Südbaden: who is open, where they are, what they serve, on a map.",
+    "live": "https://gh.tschieber.de/straussi/",
+    "code": "https://github.com/tilman-schieber/straussi",
+    "preview": "live"
+  },
+  {
+    "name": "microtools",
+    "kind": "Web app",
+    "group": "Web apps",
+    "description": "Simple link-based tools: date polls, note and file sharing, expense splitting, one-time secrets.",
+    "live": "http://tschieber.de:5000/",
+    "code": "https://github.com/tilman-schieber/microtools",
+    "preview": "screenshots/microtools.png"
+  },
+  {
+    "name": "tlog",
+    "kind": "CLI",
+    "group": "Tools",
+    "description": "Markdown-first knowledge outliner for the terminal, with a desktop app. Plain files, no database.",
+    "code": "https://github.com/tilman-schieber/tlog",
+    "preview": "screenshots/tlog.png"
+  },
+  {
+    "name": "localdev",
+    "kind": "CLI",
+    "group": "Tools",
+    "description": "Stable *.localhost URLs for local dev servers: registry, reverse proxy, dashboard.",
+    "code": "https://github.com/tilman-schieber/localdev",
+    "preview": "screenshots/localdev.png"
+  },
+  {
+    "name": "omapic",
+    "kind": "Desktop app",
+    "group": "Tools",
+    "description": "Tiny keyboard-driven image viewer and organizer for Omarchy / Arch Linux (Rust + GTK4).",
+    "code": "https://github.com/tilman-schieber/omapic",
+    "preview": "screenshots/omapic.png"
+  },
+  {
+    "name": "legokit",
+    "kind": "Python",
+    "group": "Tools",
+    "description": "Generates LEGO sets from real parts: models, parts lists, renders, instruction booklets and build films.",
+    "code": "https://github.com/tilman-schieber/legokit",
+    "preview": "screenshots/legokit.png"
+  },
+  {
+    "name": "Mars",
+    "kind": "Omarchy theme",
+    "group": "Omarchy themes",
+    "description": "Dark Omarchy theme from HiRISE Mars imagery: slate grey with a Martian red accent.",
+    "code": "https://github.com/tilman-schieber/omarchy-mars-theme",
+    "preview": "screenshots/omarchy-mars.png"
+  },
+  {
+    "name": "Carbonfox",
+    "kind": "Omarchy theme",
+    "group": "Omarchy themes",
+    "description": "Omarchy port of the carbonfox flavour of nightfox.nvim.",
+    "code": "https://github.com/tilman-schieber/omarchy-carbonfox-theme",
+    "preview": "screenshots/omarchy-carbonfox.png"
+  },
+  {
+    "name": "Solarized Dark",
+    "kind": "Omarchy theme",
+    "group": "Omarchy themes",
+    "description": "Omarchy theme from Ethan Schoonover's original Solarized spec.",
+    "code": "https://github.com/tilman-schieber/omarchy-solarized-dark-theme",
+    "preview": "screenshots/omarchy-solarized-dark.png"
   }
 ]
