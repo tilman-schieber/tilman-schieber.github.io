@@ -1,5 +1,13 @@
 [
   {
+    "name": "PONGMAN",
+    "kind": "Game",
+    "description": "Pong through a Pac-Man maze: steer the ball with your paddle, dodge ghosts, send invaders down the other lane, mind the gorilla.",
+    "live": "https://gh.tschieber.de/pongman/",
+    "code": "https://github.com/tilman-schieber/pongman",
+    "preview": "live"
+  },
+  {
     "name": "REBOUND",
     "kind": "Game",
     "description": "Brick-breaking arcade game: paint the ball, mix colours into power-ups, pixel-picture walls, or two paddles at once.",
