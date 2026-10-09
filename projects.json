@@ -179,6 +179,15 @@
     "preview": "screenshots/tlog.png"
   },
   {
+    "name": "mdeck",
+    "kind": "CLI",
+    "group": "Tools",
+    "description": "Slides as a plain Markdown file: an AI assistant writes them from your old decks and notes, you present in the browser and share one HTML file or a PDF.",
+    "live": "https://gh.tschieber.de/mdeck/",
+    "code": "https://github.com/tilman-schieber/mdeck",
+    "preview": "live"
+  },
+  {
     "name": "localdev",
     "kind": "CLI",
     "group": "Tools",
