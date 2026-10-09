@@ -185,6 +185,15 @@
     "description": "Slides as a plain Markdown file: an AI assistant writes them from your old decks and notes, you present in the browser and share one HTML file or a PDF.",
     "live": "https://gh.tschieber.de/mdeck/",
     "code": "https://github.com/tilman-schieber/mdeck",
+    "preview": "screenshots/mdeck.png"
+  },
+  {
+    "name": "mdeck themes",
+    "kind": "Themes",
+    "group": "Tools",
+    "description": "Themes and palettes for mdeck, tried on a sample deck in light and dark and installed with one command.",
+    "live": "https://gh.tschieber.de/mdeck-themes/",
+    "code": "https://github.com/tilman-schieber/mdeck-themes",
     "preview": "live"
   },
   {
