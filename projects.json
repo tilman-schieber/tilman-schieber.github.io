@@ -1,5 +1,14 @@
 [
   {
+    "name": "KABOOM",
+    "kind": "Game",
+    "group": "Arcade games",
+    "description": "Bomberman-style arena battles: arcade against CPU bombers or up to four players, three arenas with warps and conveyor belts, nine power-ups and skull curses.",
+    "live": "https://gh.tschieber.de/kaboom/",
+    "code": "https://github.com/tilman-schieber/kaboom",
+    "preview": "live"
+  },
+  {
     "name": "PONGMAN",
     "kind": "Game",
     "group": "Arcade games",
