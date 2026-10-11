@@ -200,8 +200,8 @@
     "name": "mdeck themes",
     "kind": "Themes",
     "group": "Tools",
-    "description": "Themes and palettes for mdeck, tried on a sample deck in light and dark and installed with one command.",
-    "live": "https://gh.tschieber.de/mdeck-themes/",
+    "description": "Themes and palettes for mdeck, tried on a sample deck in light and dark, with each theme's settings as sliders, and installed with one command.",
+    "live": "https://gh.tschieber.de/mdeck-themes/?theme=wayfinding",
     "code": "https://github.com/tilman-schieber/mdeck-themes",
     "preview": "live"
   },
