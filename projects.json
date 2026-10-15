@@ -1,5 +1,14 @@
 [
   {
+    "name": "ENCORE",
+    "kind": "Game",
+    "group": "Arcade games",
+    "description": "A survivor roguelite where every weapon is an instrument on a 16-step sequencer: build a band, and the song of the run grows with it, until THE SILENCE comes.",
+    "live": "https://gh.tschieber.de/encore/",
+    "code": "https://github.com/tilman-schieber/encore",
+    "preview": "live"
+  },
+  {
     "name": "KABOOM",
     "kind": "Game",
     "group": "Arcade games",
