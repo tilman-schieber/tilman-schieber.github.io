@@ -1,5 +1,14 @@
 [
   {
+    "name": "KRATER",
+    "kind": "Game",
+    "group": "Arcade games",
+    "description": "Worms-style artillery with moles: destructible maps in three climates, eleven weapons from bazooka to airstrike, wind, crates, hot-seat teams and CPU players that simulate their shots.",
+    "live": "https://gh.tschieber.de/krater/",
+    "code": "https://github.com/tilman-schieber/krater",
+    "preview": "live"
+  },
+  {
     "name": "ENCORE",
     "kind": "Game",
     "group": "Arcade games",
