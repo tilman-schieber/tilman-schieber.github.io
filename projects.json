@@ -1,5 +1,14 @@
 [
   {
+    "name": "MOLES",
+    "kind": "Game",
+    "group": "Arcade games",
+    "description": "A Lemmings-inspired rescue puzzler: guide little moles through twenty-four caves with eight jobs, destructible terrain and a chiptune soundtrack.",
+    "live": "https://gh.tschieber.de/moles/",
+    "code": "https://github.com/tilman-schieber/moles",
+    "preview": "live"
+  },
+  {
     "name": "KRATER",
     "kind": "Game",
     "group": "Arcade games",
