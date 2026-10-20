@@ -189,6 +189,15 @@
     "preview": "live"
   },
   {
+    "name": "MODULAR",
+    "kind": "Web app",
+    "group": "Web apps",
+    "description": "A pixel-art modular synth in the browser: patch drum machines, sequencers, synth voices, LFOs and effects with cables, play live from keyboard or MIDI, record WAVs and share patches as links.",
+    "live": "https://gh.tschieber.de/modular/",
+    "code": "https://github.com/tilman-schieber/modular",
+    "preview": "live"
+  },
+  {
     "name": "Straussi",
     "kind": "Web app",
     "group": "Web apps",
