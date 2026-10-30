@@ -224,6 +224,14 @@
     "preview": "screenshots/tlog.png"
   },
   {
+    "name": "docex",
+    "kind": "Desktop app",
+    "group": "Tools",
+    "description": "Word documents through Markdown: edit in the terminal, any editor or the desktop app, and only your changes go back into the .docx, as tracked changes. Built for reviewing other people's edits.",
+    "code": "https://github.com/tilman-schieber/docex",
+    "preview": "screenshots/docex.png"
+  },
+  {
     "name": "mdeck",
     "kind": "CLI",
     "group": "Tools",
