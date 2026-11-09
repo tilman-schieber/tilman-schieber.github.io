@@ -266,6 +266,14 @@
     "preview": "screenshots/omapic.png"
   },
   {
+    "name": "MagiClip",
+    "kind": "Omarchy plugin",
+    "group": "Tools",
+    "description": "The magic clipboard: press a key, pick a prompt, and the copied text goes through Claude or a local model; read the answer or let it replace the clipboard.",
+    "code": "https://github.com/tilman-schieber/magiclip",
+    "preview": "screenshots/magiclip.png"
+  },
+  {
     "name": "legokit",
     "kind": "Python",
     "group": "Tools",
