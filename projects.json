@@ -216,6 +216,15 @@
     "preview": "screenshots/microtools.png"
   },
   {
+    "name": "FRACZILLA",
+    "kind": "Web app",
+    "group": "Web apps",
+    "description": "GPU deep-zoom fractal explorer in the spirit of the DOS classics: smooth zoom flights to 10^28× via perturbation theory, Mandelbrot, Julia, Burning Ship and more, color cycling and a retro VGA mode.",
+    "live": "https://gh.tschieber.de/fraczilla/",
+    "code": "https://github.com/tilman-schieber/fraczilla",
+    "preview": "live"
+  },
+  {
     "name": "tlog",
     "kind": "CLI",
     "group": "Tools",
