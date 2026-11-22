@@ -6,7 +6,7 @@
     "description": "A Lemmings-inspired rescue puzzler: guide little moles through twenty-four caves with eight jobs, destructible terrain and a chiptune soundtrack.",
     "live": "https://gh.tschieber.de/moles/",
     "code": "https://github.com/tilman-schieber/moles",
-    "preview": "live"
+    "preview": "screenshots/moles.png"
   },
   {
     "name": "KRATER",
@@ -15,7 +15,7 @@
     "description": "Worms-style artillery with moles: destructible maps in three climates, eleven weapons from bazooka to airstrike, wind, crates, hot-seat teams and CPU players that simulate their shots.",
     "live": "https://gh.tschieber.de/krater/",
     "code": "https://github.com/tilman-schieber/krater",
-    "preview": "live"
+    "preview": "screenshots/krater.png"
   },
   {
     "name": "ENCORE",
@@ -24,7 +24,7 @@
     "description": "A survivor roguelite where every weapon is an instrument on a 16-step sequencer: build a band, and the song of the run grows with it, until THE SILENCE comes.",
     "live": "https://gh.tschieber.de/encore/",
     "code": "https://github.com/tilman-schieber/encore",
-    "preview": "live"
+    "preview": "screenshots/encore.png"
   },
   {
     "name": "KABOOM",
@@ -33,7 +33,7 @@
     "description": "Bomberman-style arena battles: arcade against CPU bombers or up to four players, three arenas with warps and conveyor belts, nine power-ups and skull curses.",
     "live": "https://gh.tschieber.de/kaboom/",
     "code": "https://github.com/tilman-schieber/kaboom",
-    "preview": "live"
+    "preview": "screenshots/kaboom.png"
   },
   {
     "name": "PONGMAN",
@@ -42,7 +42,7 @@
     "description": "Pong through a Pac-Man maze: steer the ball with your paddle, dodge ghosts, send invaders down the other lane, mind the gorilla.",
     "live": "https://gh.tschieber.de/pongman/",
     "code": "https://github.com/tilman-schieber/pongman",
-    "preview": "live"
+    "preview": "screenshots/pongman.png"
   },
   {
     "name": "VEKTOR",
@@ -51,7 +51,7 @@
     "description": "Raiden-style vertical shooter: five stages from the jungle coast to a volcano, PixelLab sprite art, vulcan or laser, bombs, medals and five bosses.",
     "live": "https://gh.tschieber.de/vektor/",
     "code": "https://github.com/tilman-schieber/vektor",
-    "preview": "live"
+    "preview": "screenshots/vektor.png"
   },
   {
     "name": "REBOUND",
@@ -60,7 +60,7 @@
     "description": "Brick-breaking arcade game: paint the ball, mix colours into power-ups, pixel-picture walls, or two paddles at once.",
     "live": "https://gh.tschieber.de/rebound/",
     "code": "https://github.com/tilman-schieber/rebound",
-    "preview": "live"
+    "preview": "screenshots/rebound.png"
   },
   {
     "name": "SNACKMAN",
@@ -69,7 +69,7 @@
     "description": "Arcade maze game: procedural mazes, snacks cooked from ingredients, play the ghost, or the lights out.",
     "live": "https://gh.tschieber.de/snackman/",
     "code": "https://github.com/tilman-schieber/snackman",
-    "preview": "live"
+    "preview": "screenshots/snackman.png"
   },
   {
     "name": "SCALES",
@@ -78,7 +78,7 @@
     "description": "NES-style snake game in a musical labyrinth.",
     "live": "https://gh.tschieber.de/scales/",
     "code": "https://github.com/tilman-schieber/scales",
-    "preview": "live"
+    "preview": "screenshots/scales.png"
   },
   {
     "name": "jtris",
@@ -87,7 +87,7 @@
     "description": "NES-style pixel-art block puzzle game.",
     "live": "https://gh.tschieber.de/jtris/",
     "code": "https://github.com/tilman-schieber/jtris",
-    "preview": "live"
+    "preview": "screenshots/jtris.png"
   },
   {
     "name": "W.A.L.D.",
@@ -105,7 +105,7 @@
     "description": "Daily geography grid: nine countries that fit both their row and their column, and the rarer the answer the better.",
     "live": "https://gh.tschieber.de/crosscountry/",
     "code": "https://github.com/tilman-schieber/crosscountry",
-    "preview": "live"
+    "preview": "screenshots/crosscountry.png"
   },
   {
     "name": "Chemgrid",
@@ -114,7 +114,7 @@
     "description": "Daily periodic-table grid: nine elements that fit both their row and their column.",
     "live": "https://gh.tschieber.de/chemgrid/",
     "code": "https://github.com/tilman-schieber/chemgrid",
-    "preview": "live"
+    "preview": "screenshots/chemgrid.png"
   },
   {
     "name": "terran",
@@ -132,7 +132,7 @@
     "description": "Chess puzzles on non-standard boards: variable sizes, odd grids, blocked squares. Works offline.",
     "live": "https://gh.tschieber.de/xess/",
     "code": "https://github.com/tilman-schieber/xess",
-    "preview": "live"
+    "preview": "screenshots/xess.png"
   },
   {
     "name": "opener",
@@ -141,7 +141,7 @@
     "description": "Learn chess openings by playing them, against a human-like opponent with an opening explorer.",
     "live": "https://gh.tschieber.de/opener/",
     "code": "https://github.com/tilman-schieber/opener",
-    "preview": "live"
+    "preview": "screenshots/opener.png"
   },
   {
     "name": "Stack",
@@ -150,7 +150,7 @@
     "description": "Magic: The Gathering deck builder with rules-enforced play, locally or against a friend over the internet, no server.",
     "live": "https://gh.tschieber.de/stack/",
     "code": "https://github.com/tilman-schieber/stack",
-    "preview": "live"
+    "preview": "screenshots/stack.png"
   },
   {
     "name": "Mensura",
@@ -159,7 +159,7 @@
     "description": "Die sieben Urmaße: a maths adventure for grades 5 and 6 (German).",
     "live": "https://gh.tschieber.de/mensura/",
     "code": "https://github.com/tilman-schieber/mensura",
-    "preview": "live"
+    "preview": "screenshots/mensura.png"
   },
   {
     "name": "voku",
@@ -168,7 +168,7 @@
     "description": "Five-minute in-class vocabulary sprints for German students learning English.",
     "live": "https://voku.tschieber.de/",
     "code": "https://github.com/tilman-schieber/voku",
-    "preview": "live"
+    "preview": "screenshots/voku.png"
   },
   {
     "name": "Oberkurs Informatik: Überblick",
@@ -177,7 +177,7 @@
     "description": "Interactive LiaScript course on Python, Linux and programming basics (German).",
     "live": "https://liascript.github.io/course/?https://raw.githubusercontent.com/tilman-schieber/OKInf/main/0_Inhalt.md",
     "code": "https://github.com/tilman-schieber/OKInf",
-    "preview": "live"
+    "preview": "screenshots/okinf.png"
   },
   {
     "name": "Unterkurs Informatik: Überblick",
@@ -186,7 +186,7 @@
     "description": "Interactive LiaScript course on logic and number systems (German).",
     "live": "https://liascript.github.io/course/?https://raw.githubusercontent.com/tilman-schieber/UKInf/main/0_Inhalt.md",
     "code": "https://github.com/tilman-schieber/UKInf",
-    "preview": "live"
+    "preview": "screenshots/ukinf.png"
   },
   {
     "name": "MODULAR",
@@ -195,7 +195,7 @@
     "description": "A pixel-art modular synth in the browser: patch drum machines, sequencers, synth voices, LFOs and effects with cables, play live from keyboard or MIDI, record WAVs and share patches as links.",
     "live": "https://gh.tschieber.de/modular/",
     "code": "https://github.com/tilman-schieber/modular",
-    "preview": "live"
+    "preview": "screenshots/modular.png"
   },
   {
     "name": "Straussi",
@@ -204,7 +204,7 @@
     "description": "Finder for Straussenwirtschaften in Südbaden: who is open, where they are, what they serve, on a map.",
     "live": "https://gh.tschieber.de/straussi/",
     "code": "https://github.com/tilman-schieber/straussi",
-    "preview": "live"
+    "preview": "screenshots/straussi.png"
   },
   {
     "name": "microtools",
@@ -256,7 +256,7 @@
     "description": "Themes and palettes for mdeck, tried on a sample deck in light and dark, with each theme's settings as sliders, and installed with one command.",
     "live": "https://gh.tschieber.de/mdeck-themes/?theme=wayfinding",
     "code": "https://github.com/tilman-schieber/mdeck-themes",
-    "preview": "live"
+    "preview": "screenshots/mdeck-themes.png"
   },
   {
     "name": "localdev",

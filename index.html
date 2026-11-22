@@ -90,17 +90,6 @@
       background: var(--line);
       border-bottom: 1px solid var(--line);
     }
-    /* Live page: rendered at desktop size and scaled down to fit; never takes clicks. */
-    .preview iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 1280px;
-      height: 800px;
-      border: 0;
-      transform-origin: 0 0;
-      pointer-events: none;
-    }
     .preview img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
     /* No screenshot yet: a terminal-style placeholder with the project's name. */
     .preview .placeholder {
@@ -142,8 +131,9 @@
     //   name, kind, group, description   (required)
     //   live     URL of the running page (optional)
     //   code     URL of the source (optional)
-    //   preview  "live" for an iframe of `live`, or a screenshot path such as
-    //            "screenshots/tlog.png"; left out, a terminal placeholder is shown.
+    //   preview  a 1280×800 screenshot path such as "screenshots/tlog.png"; left out,
+    //            a terminal placeholder is shown. (No live iframes: embedded games
+    //            played their music on this page.)
 
     const root = document.getElementById("projects");
     const nav = document.querySelector(".sections");
@@ -158,11 +148,7 @@
     function preview(project) {
       const href = project.live || project.code;
       const frame = el("a", { class: "preview", href, tabindex: "-1", "aria-hidden": "true" });
-      if (project.preview === "live" && project.live) {
-        // No sound from previews: games that start music on load stay silent here.
-        frame.append(el("iframe", { src: project.live, loading: "lazy", tabindex: "-1", title: "",
-                                    allow: "autoplay 'none'" }));
-      } else if (project.preview) {
+      if (project.preview) {
         frame.append(el("img", { src: project.preview, alt: "", loading: "lazy" }));
       } else {
         const command = project.name.toLowerCase().split(/[^a-z0-9]+/)[0];
@@ -184,13 +170,6 @@
           links));
     }
 
-    // Scale each 1280×800 live preview down to its card's width.
-    const fit = (frame) => {
-      const iframe = frame.querySelector("iframe");
-      if (iframe) iframe.style.transform = `scale(${frame.clientWidth / 1280})`;
-    };
-    const resizer = new ResizeObserver((entries) => entries.forEach((e) => fit(e.target)));
-
     const slug = (text) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
     fetch("projects.json")
@@ -205,7 +184,6 @@
             el("h2", {}, group, el("span", {}, String(members.length))),
             el("div", { class: "grid" }, ...members.map(card))));
         }
-        root.querySelectorAll(".preview").forEach((frame) => { fit(frame); resizer.observe(frame); });
       });
   </script>
 </body>
